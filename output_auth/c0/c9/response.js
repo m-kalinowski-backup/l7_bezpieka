@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 301 Moved Permanently\x0aDate: Wed, 12 Dec 2018 13:46:55 GMT\x0aServer: WSGIServer/0.2 CPython/3.6.7\x0aContent-Type: text/html; charset=utf-8\x0aLocation: /summary/\x0aContent-Length: 0\x0a'}

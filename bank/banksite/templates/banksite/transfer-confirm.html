@@ -1,0 +1,23 @@
+{% extends "banksite/base.html" %}
+{% block content %}
+	<h2> Sprawdź swoje dane </h2>
+	<form method='POST'>
+		<article class="media content-section">
+			<div class="media-body">
+				<input id="confirm" type = "hidden" name = "confirmed" value = False />
+				<p id="title" class="article-content" href="#">Tytuł: {{ title | safe }}</p>
+				<input type = "hidden" name = "title" value = {{title | safe}} />
+				<p id="content" class="article-content">Dopisek: {{ content | safe}}</p>
+				<input type = "hidden" name = "content" value = {{content | safe}} />
+				<p id="value" class="article-content">Kwota: {{ value }}</p>
+				<input type = "hidden" name = "value" value = {{value}} />
+				<p id="account" class="article-content">Numer konta: {{ account }}</p>
+				<input type = "hidden" name = "account" value = {{account}} />
+				<input type = "hidden" name = "confirmation" value = "true" />
+			</div>
+		</article>
+		<div class="btn btn-outline-info" onclick="window.history.back()">Back</div>
+		<button id="submit_button" class="btn btn-outline-info" type="submit">Confirm</button>
+
+	</form>
+{% endblock content %}

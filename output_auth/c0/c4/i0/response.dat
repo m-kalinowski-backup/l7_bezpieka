@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Date: Wed, 12 Dec 2018 13:07:25 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Length: 3277
+Set-Cookie: csrftoken=njXXYruj2I3e0DZpa3ON1pXPyWe7j4psmGGhWvvVA8aTFK8KZ52DqLE79a2VfrDS; expires=Wed, 11 Dec 2019 13:07:25 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"

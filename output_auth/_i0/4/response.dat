@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Wed, 12 Dec 2018 13:07:23 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Content-Length: 2532
+Vary: Cookie
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"

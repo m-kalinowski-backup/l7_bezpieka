@@ -1,0 +1,26 @@
+{
+ "applications": {
+  "gecko": {
+    "id": "borderify@przyklad.pl"
+   }
+  },
+
+  "manifest_version": 2,
+  "name": "Bank Plugin",
+  "version": "1.0",
+
+  "description": "plugin chroniący twoje dane",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.127.0.0.1/*"],
+      "js": ["plugin.js"]
+    }
+  ]
+}
+
+

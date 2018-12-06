@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 302 Found\x0aDate: Wed, 12 Dec 2018 13:07:36 GMT\x0aServer: WSGIServer/0.2 CPython/3.6.7\x0aContent-Type: text/html; charset=utf-8\x0aLocation: /password-reset/done/\x0aX-Frame-Options: SAMEORIGIN\x0aContent-Length: 0\x0a\x0a'}

